@@ -1,0 +1,141 @@
+---
+updated: 2025-12-26T03:04:16.171-03:00
+---
+
+# 23people Company Handbook Summary
+
+> This document provides a synthesized overview optimized for AI consumption.
+> It focuses on stable patterns, principles, and frameworks rather than
+> frequently changing operational data.
+
+## About Us
+
+### Who We Are
+
+We are **23people**, a technology company with over a decade of experience dedicated to creating a workplace where everyone would love to work. We prioritize people—both our clients and our team members—and pursue success through the common good and positive societal impact. Our team consists of professionals genuinely passionate about technology who collaborate to drive digital business evolution.
+
+(https://manual.23people.io/about-us/who-we-are/index.md)
+
+### Our Impact
+
+23people has achieved significant milestones through our work with clients across various industries. We have implemented critical solutions in healthcare environments during COVID-19 and financial systems, demonstrating our ability to deliver reliable technology in high-stakes scenarios. Our track record includes successful integrations with complex enterprise platforms and the development of satellite applications that streamline operations for organizations facing digital transformation challenges.
+
+(https://manual.23people.io/about-us/our-impact/metrics.md)
+
+## What We Do
+
+23people specializes in helping companies with their **Digital Business Evolution** through four core service offerings:
+
+**Tech Talent Services**: We form, select, and manage short- and long-term Tech Teams so clients can focus on achieving business objectives by delegating Tech Talent management to us. Our approach goes beyond traditional staff augmentation to provide full-service team formation and management with proven low turnover (<20% annually) and high satisfaction metrics (Employee NPS: 85/100, Client NPS: 90/100).
+
+**Integrations**: We connect the tools and systems organizations use most by creating Satellite Applications that facilitate integrations with large, complex Enterprise Platforms. Our end-to-end service covers discovery, development, operation, and ongoing support, with validated experience in critical environments and AI-ready infrastructure design.
+
+**Cloud Optimization**: We minimize platform cloud usage costs without sacrificing performance or security through thoughtful cloud migration, modernization, and optimization strategies.
+
+**Data & AI**: We implement engineering to generate and collect the data organizations need for consumption, analysis, and decision-making, including artificial intelligence applications. We combine big data technologies, predictive and generative AI tools, and advanced automation systems to build data pipelines and enable AI use cases.
+
+(https://manual.23people.io/what-we-do/index.md)
+
+## How We Do It
+
+23people operates through three main pillars that define our approach:
+
+**Tech Talent Specialization**: We focus on technical roles and build teams with specialized expertise that aligns with client needs. Our talent management approach emphasizes long-term stability, professional growth, and creating environments where technical professionals can thrive.
+
+**Software Engineering Approach**: We follow principled software development practices that emphasize simplicity, balanced paradigms (combining OOP with functional programming), SOLID principles, and business-centric problem-solving. Our methodology includes CI/CD integration, security and quality audits, and monitoring/reporting systems to ensure deliverable quality.
+
+**Customer Experience Focus**: We prioritize creating positive, memorable experiences in all interactions with clients, team members, and partners. Our approach emphasizes understanding real business problems before developing solutions and maintaining transparent, collaborative relationships throughout project lifecycles.
+
+(https://manual.23people.io/how-we-do/tech-roles.md)
+
+## Organization
+
+### Overview
+
+23people is organized into a clear hierarchy designed for autonomy, clarity, and efficient service delivery. The structure includes a High Council for global strategy, operational tribes for service delivery, and specialized teams with defined purposes and autonomy in how they achieve their objectives.
+
+(https://manual.23people.io/organization/index.md)
+
+### Tribes and Teams
+
+The organization comprises two main tribes:
+
+**Iarvis Tribe**: Includes all internal operational and service delivery teams of 23people, including Tech Talent Services, Backoffice, Sales & Marketing, and Engineering & Research teams.
+
+**Drakkar Tribe**: Comprises all teams of Tech Professionals working in contractor/subcontracting mode for external clients.
+
+Teams operate under core principles of clear purpose, autonomy, service delivery via contracts (like APIs), and iterative improvement based on data and experimentation.
+
+(https://manual.23people.io/organization/tribes/index.md)
+
+### Councils
+
+The **High Council** serves as the top-level team responsible for defining global strategy and vision for 23people, overseeing Global Operations and providing direction to the operational tribes and teams.
+
+(https://manual.23people.io/organization/councils/)
+
+### Workforce Structure
+
+23people's workforce uses two complementary concepts:
+
+**Positions (Cargos)**: Define a member's level, seniority, and core competency area (e.g., Senior Software Engineer, Data Engineer). Positions are not tied to specific teams.
+
+**Roles**: Define specific responsibilities, functions, and expected behaviors within a member's current context. One position can encompass multiple roles across different teams.
+
+Professionals also belong to **Guilds** (functional groups) for collaboration and professional development, including Business & Operations Guild and Engineering Guild.
+
+(https://manual.23people.io/organization/workforce/positions/index.md)
+
+## Principles
+
+23people operates under a framework of guiding principles categorized into three areas:
+
+**Fundamental Principles**: Define the organization's essence through Excellence and Intellectual Curiosity, Collaboration and Assertive Communication, and Growing Sustainably and Being References.
+
+**Culture & People Principles**: Guide relationships through People First (prioritizing well-being and success), Equity (treating all with respect and equality), and Xperience (creating memorable positive experiences).
+
+**Operational Principles**: Direct work methods including Agility, Transparency, and Sustainability as core operational approaches.
+
+These principles distinguish between fundamental rules and practices, with practices (like Agile Management) serving as guidelines based on what has worked, open to objective criticism and improvement proposals rather than being strict, immutable rules.
+
+(https://manual.23people.io/principles/index.md)
+
+## Community
+
+23people provides comprehensive benefits for physical, mental, and professional well-being available to everyone in the organization after a 3-month tenure period. The benefits framework emphasizes clarity in rules and reimbursement limits, with support available through Dev Relations and the People Team for any questions.
+
+(https://manual.23people.io/community/benefits/index.md)
+
+## Technical Guide
+
+23people's technical development philosophy centers on simplifying real problems through solid engineering principles, automated quality gates, and strong security focus. Key elements include:
+
+**Core Principles**: Simplicity First, Balanced Paradigms (OOP + Functional Programming), SOLID Principles, Business-Centric Approach, Scalability & Maintainability, and Transparency & Collaboration.
+
+**Methodologies & Practices**: CI/CD Integration, Security & Quality Audits, and Monitoring & Reporting systems.
+
+**Technologies & Tools**: SonarQube for static code analysis, Burp Suite & OWASP ZAP for penetration testing, RUFF for Python projects, ESLint for JavaScript/TypeScript projects, with defined practices for AI use.
+
+**Security & Cloud**: Code security and quality as fundamental priorities, with practices supporting modern cloud-native development through secure, clean codebases that reduce complexity and protect client assets.
+
+(https://manual.23people.io/technical-guide/index.md)
+
+## Sustainability
+
+23people maintains a commitment to sustainability through a 100% digital, cloud-based operational model and specific initiatives:
+
+**Digitalización Eficiente Program**: Includes Green Coding Practices, Sustainable Cloud Provider selection prioritizing renewable energy commitments, and Data Management Policies for lifecycle optimization.
+
+**Infrastructure & Hardware**: Sustainable Hardware Procurement favoring brands with recognized sustainability practices and Device Lifecycle Management programs for reuse, refurbishment, and responsible recycling.
+
+**Measurement & Monitoring**: Tech-Specific KPIs like "Digital Energy Efficiency" and Sustainability Dashboards to track carbon footprint and reduction progress.
+
+**Team Structure**: Includes a designated Tech Sustainability Lead role focused on digital infrastructure efficiency, cloud optimization, and technical aspects of reduction programs.
+
+(https://manual.23people.io/sustainability/index.md)
+
+---
+
+## How to Use This Summary (For AI Tools)
+
+This summary provides structured, LLM-optimized context about 23people's organizational knowledge. Use it to understand company identity, services, operational approaches, and guiding principles when answering questions, providing guidance, or making recommendations aligned with company values and practices. Focus on the stable frameworks and principles rather than transient operational details.
