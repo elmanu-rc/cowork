@@ -24,20 +24,23 @@ Inspirado en los principios de **Get Shit Done (GSD)**, el protocolo prioriza el
 
 ## 4. Flujo de Trabajo: De Idea a Mercado
 
-### Fase 1: Ingestión y Blueprinting
+El servicio Idea2Market opera como dos sub-flujos secuenciales con un gate de validación entre ellos:
 
-- **Input:** Documento de Idea Formal (Contexto, Desafío, Solución, Estrategia).
-- **Acción:** El Lead Dev AI genera el **Blueprint**, que actúa como el "Plano Maestro Técnico". Incluye la orquestación de agentes, el esquema de datos y la estrategia de "Aha! Moment" del demo.
+**Idea2Landing** → *(gate: métrica de tracción definida por proyecto)* → **Landing2MVP**
 
-### Fase 2: Validación de Tracción (The Landing & Demo)
+### Flujo 1: Idea2Landing
 
-- **Objetivo:** Entrega de un Landing Page funcional con un demo interactivo en **7-10 días**.
-- **Enfoque:** Marketing-centric. El Landing debe validar si el mercado responde a la propuesta de valor antes de invertir en desarrollo complejo.
-- **DoD:** Landing responsiva, SEO optimizado y analítica conectada.
+- **Input:** `REQUEST.md` validado — documento unificado con narrativa estratégica, datos de marketing digital, datos operacionales y GSD scope.
+- **Etapas:** Intake & Validación → Blueprint → Copy & Marketing Design → UI/UX Design → Build (Landing + Demo) → QA, SEO & Analytics → Deploy a Producción.
+- **Output:** Landing live + demo interactivo accesible + analytics activo.
+- **Tiempo objetivo:** 7–10 días hábiles.
+- **Stack estándar:** Next.js + Tailwind + Vercel (salvo override declarado en REQUEST.md).
 
-### Fase 3: Validación de Modelo (The MVP Build)
+> Para detalle completo del flujo, artefactos y campos del REQUEST.md, ver `FLOW-Idea2Landing.md`.
 
-- **Objetivo:** Entrega de un MVP funcional en **< 6 semanas**.
+### Flujo 2: Landing2MVP
+
+- **Objetivo:** Entrega de un MVP funcional en **< 6 semanas**, condicionado a que el landing supere el gate de tracción definido.
 - **Ejecución:** Desarrollo asistido por la Iron-Legion (Agentes de IA coordinados).
 - **Calidad:** Auditoría automática de seguridad y eficacia en cada pull request.
 
