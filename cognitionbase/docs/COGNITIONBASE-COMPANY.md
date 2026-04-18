@@ -56,6 +56,3 @@ El servicio Idea2Market opera como dos sub-flujos secuenciales con un gate de va
 3. **Automation Ratio:** % de tareas de ingeniería asistidas por IA.
 4. **Tech Evaluations Lead-Time:** Tiempo promedio de entrega de informes de evaluación técnica.
 5. **Tech Evaluations Throughput:** Calidad y puntualidad en el servicio de evaluación técnica para 23people.
-
----
-*"Stop talking, start building. Done is better than perfect."*
