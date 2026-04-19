@@ -30,7 +30,6 @@ The project follows a strict organizational structure to manage the flow from id
 | **`2 - References Docs/`** | External research and raw input data. | Investigation artifacts (e.g., GSD docs, company handbook). |
 | **`3 - Permanent Docs/`** | Official, validated documentation. | Permanent and official files only. |
 
-
 ### Key Documentation Files
 
 * **`docs/COGNITIONBASE-COMPANY.md`**: Mission, vision, and high-level service definitions.
