@@ -1,0 +1,2 @@
+- [User Profile — Manuel Reyes](user_profile.md) — founder/operator, CognitionBase AI-first spinoff, Output-First culture, Zettelkasten in Spanish
+- [CognitionBase — Project Context](project_cognitionbase.md) — team structure, services, active job descriptor formalization work (2026-04-20)
