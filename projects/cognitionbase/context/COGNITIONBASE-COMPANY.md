@@ -55,4 +55,5 @@ El servicio Idea2Market opera como dos sub-flujos secuenciales con un gate de va
 2. **LP2MVP Cycle-Time:** Tiempo desde la validación del `L2MVP-REQUEST-[project-name].md` hasta el despliegue del MVP funcional. No definido aun.
 3. **Automation Ratio:** % de tareas de ingeniería asistidas por IA.
 4. **Tech Evaluations Lead-Time:** Tiempo promedio de entrega de informes de evaluación técnica.
-5. **Tech Evaluations Throughput:** Calidad y puntualidad en el servicio de evaluación técnica para 23people.
+5. **Tech Evaluations Throughput:** Número de evaluaciones técnicas completadas por período (semana/mes).
+6. **Post-Delivery Defect Rate:** Número de bugs o correcciones solicitadas por el cliente dentro de los 7 días posteriores a la entrega, por tipo de entrega (Landing, Demo, MVP, Informe). Target: ≤1 por entrega.

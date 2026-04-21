@@ -1,10 +1,8 @@
-# Perfil de Posición: Lead Dev AI
+# Perfil de Posición: Team Lead Dev AI
 
 **Empresa:** CognitionBase (Spinoff de innovación de 23people.io)
 **Nivel:** Staff
-**Nivel GetOnBrd:** Senior
 **Modalidad:** Híbrido (Santiago, Chile)
-**Título externo sugerido (LinkedIn):** AI Engineering Lead @ CognitionBase
 **Fecha de actualización:** 2026-04-20
 
 ---
@@ -15,20 +13,20 @@
 
 Operamos bajo una mentalidad **AI-First y Data-driven**, apalancándonos en orquestación de agentes de IA y automatización inteligente. Aquí no hacemos teatro empresarial: nos enfocamos en el output real, priorizamos el impacto sobre la burocracia, y medimos el éxito con métricas, no con reuniones.
 
-Buscamos un **Lead Dev AI** que lidere y forme el equipo **Iron-Legion**: una mezcla de Devs AI (humanos) y Agentes AI operando como una unidad cohesionada de alta velocidad.
+Buscamos un **Team Lead Dev AI** que lidere y forme el equipo **Westworld**: una mezcla de Devs AI (humanos) y Agentes AI operando como una unidad cohesionada de alta velocidad.
 
 ---
 
 ## 2. Propósito del Cargo
 
-El Lead Dev AI existe para garantizar que cada idea validada por el negocio se transforme en un producto técnico real — una Landing Page, una Demo Funcional, o un MVP — en el menor tiempo posible y con el más alto estándar de calidad. Es el puente entre el lenguaje de negocio y la ejecución técnica, y el responsable de que el Iron-Legion opere como una máquina de entrega de valor.
+El Team Lead Dev AI existe para garantizar que cada idea validada por el negocio se transforme en un producto técnico real — una Landing Page, una Demo Funcional, o un MVP — en el menor tiempo posible y con el más alto estándar de calidad. Es el puente entre el lenguaje de negocio y la ejecución técnica, y el responsable de que el Westworld opere como una máquina de entrega de valor.
 
 ---
 
 ## 3. Posición en la Estructura
 
 - **Reporta a:** SRM (Service Request Manager)
-- **Dirige:** Iron-Legion — Devs AI (humanos) + Agentes AI
+- **Dirige:** Westworld — Devs AI (humanos) + Agentes AI
 - **Colabora directamente con:** SRM, Fundadores / C-Level de CognitionBase
 
 ---
@@ -61,23 +59,24 @@ Recibir ideas de producto y transformarlas en Blueprints técnicos accionables: 
 **Cumplimiento de KPIs de Eficiencia y Calidad:**
 Ser accountable de los KPIs de Cycle-Time y Lead-Time del equipo. Garantizar que cada entrega — Landing, Demo, MVP o Informe de Evaluación Técnica — cumpla los DoDs y Criterios de Aceptación definidos, y los estándares de ciberseguridad de CognitionBase.
 
-**Liderazgo y Desarrollo del Iron-Legion:**
+**Liderazgo y Desarrollo del Westworld:**
 Dirigir a los Devs AI y configurar/gestionar los Agentes AI del equipo, asegurando que los profesionales humanos se mantengan motivados, en crecimiento constante, y operen a un ritmo de trabajo sostenible. No toleramos "mojar la camiseta" como práctica — sí valoramos la excelencia técnica, la curiosidad genuina, y el enfoque en resultados. *Work smart, not hard.*
 
 **Guardián de Estándares Técnicos:**
-Definir y mantener las recetas técnicas de CognitionBase para cada tipo de entrega (Landing, Demo, MVP). Asegurar la coherencia del stack, la calidad del código, y la seguridad en cada entrega del Iron-Legion.
+Definir y mantener las recetas técnicas de CognitionBase para cada tipo de entrega (Landing, Demo, MVP). Asegurar la coherencia del stack, la calidad del código, y la seguridad en cada entrega del Westworld.
 
 ---
 
 ## 6. KPIs del Cargo
 
-| KPI | Descripción |
-|-----|-------------|
-| **Cycle-Time por entrega** | Tiempo desde que una solicitud entra al flujo de trabajo hasta que se entrega. Target definido por tipo de entrega (Landing, Demo, MVP). |
-| **Lead-Time total** | Tiempo total desde la solicitud del cliente hasta la entrega final. Incluye validación del SRM. |
-| **DoD Compliance Rate** | % de entregas que cumplen la Definición de Listo al primer ciclo de revisión (sin retrabajo). Target: ≥90%. |
-| **Velocity del Iron-Legion** | Cantidad de entregas completadas por sprint/período, controlando por complejidad. |
-| **Tasa de reutilización de componentes AI** | % de componentes y agentes reutilizados entre proyectos — indicador de madurez del sistema AI-First. |
+| KPI                                         | Descripción                                                                                                                              |
+|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| **Cycle-Time por entrega**                  | Tiempo desde que una solicitud entra al flujo de trabajo hasta que se entrega. Target definido por tipo de entrega (Landing, Demo, MVP). |
+| **Lead-Time total**                         | Tiempo total desde la solicitud del cliente hasta la entrega final. Incluye validación del SRM.                                          |
+| **DoD Compliance Rate**                     | % de entregas que cumplen la Definición de Listo al primer ciclo de revisión (sin retrabajo). Target: ≥90%.                              |
+| **Velocity del Iron-Legion**                | Cantidad de entregas completadas por sprint/período, controlando por complejidad.                                                        |
+| **Tasa de reutilización de componentes AI** | % de componentes y agentes reutilizados entre proyectos — indicador de madurez del sistema AI-First.                                     |
+| **Post-Delivery Defect Rate**               | Número de bugs o correcciones solicitadas por el cliente dentro de los 7 días posteriores a la entrega, por tipo de entrega. Target: ≤1 por entrega. |
 
 ---
 
@@ -110,21 +109,13 @@ Capacidad para leer documentación técnica compleja, participar en reuniones en
 
 ## 8. Competencias Técnicas Clave
 
-| Competencia / Herramienta | Nivel Esperado |
-|---------------------------|----------------|
-| Next.js + React | Avanzado |
-| Supabase (Postgres, Auth, Edge Functions) | Avanzado |
-| Python (para scripting y orquestación AI) | Avanzado |
-| TypeScript | Avanzado |
-| LangGraph | Avanzado |
-| CrewAI o AutoGen | Intermedio-Avanzado |
-| Claude Agents SDK o OpenAI Agents SDK | Avanzado |
-| MCP (Model Context Protocol) | Intermedio |
-| Prompt Engineering & LLM Evaluation | Avanzado |
-| LangSmith o Langfuse (observabilidad LLM) | Intermedio |
-| Docker + CI/CD básico | Intermedio |
-| Claude Code o Cursor (AI coding workflow) | Experto |
-| Git / GitHub + code review | Avanzado |
+| Competencia / Herramienta           | Nivel Esperado |
+|-------------------------------------|----------------|
+| MCP (Model Context Protocol)        | Intermedio     |
+| Prompt Engineering & LLM Evaluation | Avanzado       |
+| Docker + CI/CD básico               | Intermedio     |
+| Claude Code (AI coding workflow)    | Experto        |
+| Git / GitHub + code review          | Avanzado       |
 
 ---
 
@@ -153,11 +144,10 @@ El Iron-Legion opera a velocidad de crucero bajo tu liderazgo con mínima depend
 
 ## 11. Path de Crecimiento
 
-CognitionBase está en etapa de construcción activa. El Lead Dev AI que entre hoy tiene la oportunidad de co-diseñar la arquitectura técnica, los procesos, y la cultura de un equipo que se proyecta a escalar. Las trayectorias naturales desde este cargo son:
+CognitionBase está en etapa de construcción activa. El Team Lead Dev AI que entre hoy tiene la oportunidad de co-diseñar la arquitectura técnica, los procesos, y la cultura de un equipo que se proyecta a escalar. Las trayectorias naturales desde este cargo son:
 
 - **CTO / Head of Engineering** de CognitionBase a medida que el equipo crezca
 - **Technical Founder** de un producto incubado dentro de CognitionBase
-- **Staff AI Engineer** en 23people.io con enfoque en AI-First para clientes enterprise
 
 No te ofrecemos un escalafón de carrera predefinido. Te ofrecemos impacto real desde el día uno y exposición directa a la toma de decisiones estratégicas.
 
@@ -167,7 +157,6 @@ No te ofrecemos un escalafón de carrera predefinido. Te ofrecemos impacto real 
 
 **Modalidad:** Híbrido — días presenciales en Santiago combinados con trabajo remoto (esquema definido con el equipo).
 **Tipo de contrato:** Indefinido
-**Rango salarial:** CLP $5.000.000 – $8.000.000 brutos mensuales (según experiencia demostrable y resultado del proceso).
 **Beneficios:** A conversar en el proceso. Énfasis en flexibilidad real y exposición a proyectos de alto impacto.
 
 ---
