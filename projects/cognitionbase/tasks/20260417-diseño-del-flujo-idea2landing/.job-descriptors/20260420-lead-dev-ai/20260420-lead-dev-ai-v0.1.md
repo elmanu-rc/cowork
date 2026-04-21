@@ -77,6 +77,7 @@ Gestiona el flujo de solicitudes validadas por el SRM, asegurando que ingresen a
 | **DoD Compliance Rate** | % de entregas que cumplen la Definición de Listo al primer ciclo de revisión (sin retrabajo). Target: ≥90%. |
 | **Velocity del Iron-Legion** | Cantidad de entregas completadas por sprint/período, controlando por complejidad. |
 | **Tasa de reutilización de componentes AI** | % de componentes y agentes reutilizados entre proyectos — indicador de madurez del sistema AI-First. |
+| **Post-Delivery Defect Rate** | Número de bugs o correcciones solicitadas por el cliente dentro de los 7 días posteriores a la entrega, por tipo de entrega. Target: ≤1 por entrega. |
 
 ---
 
