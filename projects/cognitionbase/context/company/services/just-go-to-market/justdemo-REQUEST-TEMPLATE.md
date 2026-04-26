@@ -1,8 +1,10 @@
-# REQUEST.md — [Nombre del Proyecto]
+# JustDemo-REQUEST.md — [Nombre del Proyecto]
 
-> **Flujo:** Idea2Landing · CognitionBase  
-> **Versión de plantilla:** 1.0  
+> **Flujo:** JustDemo · CognitionBase  
+> **Versión de plantilla:** 1.1  
+> **Prerequisito:** Esta plantilla solo debe completarse si la idea ya pasó el `justgotomarket-IDEAS-FILTER-CHECKLIST.md`. Si la idea no ha sido filtrada, comenzar por ahí.  
 > **Instrucciones:** Reemplaza cada `[COMPLETAR]` con el valor real. Los bloques `> Ej:` son ejemplos basados en el proyecto ARCO Legal — borrarlos al completar. Este documento alimenta directamente a `/gsd-new-project` y al agente de Blueprint; si un campo queda vacío, el flujo se detiene en Intake.
+> **Paradigma JustGoToMarket:** El cliente final **compra un resultado**, no una herramienta. La tecnología —sea automatización, agente IA, plataforma o procesamiento de datos— es el habilitador del servicio, no el servicio en sí. Este landing valida si el mercado está dispuesto a pagar por ese resultado, no si quiere acceder a un software.
 
 ---
 
@@ -29,9 +31,10 @@
 
 ---
 
-## 2. AUDIENCIA
+## 2. AUDIENCIA Y PROBLEMA
 
 <!-- El visitante ideal del landing. Cuanto más específico y en "sus propias palabras", mejor copy genera el agente. -->
+<!-- Esta sección también captura los atributos del problema que justifican el ingreso al flujo JustDemo. -->
 
 **perfil_ict:** [COMPLETAR]
 > Ej: `Gerente General, Gerente Legal, o DPO de una empresa chilena que trata datos personales de clientes o empleados.`
@@ -43,6 +46,19 @@
 > Ej: `"No tenemos proceso para recibir solicitudes de datos. Si llega una, no sabemos ni quién la atiende ni en cuánto tiempo hay que responder."`
 > _(Verbatim o paráfrasis de cómo el cliente describe el dolor. Fuente: entrevistas, reseñas, conversaciones de ventas.)_
 
+**frecuencia_del_problema:** [COMPLETAR]
+> Opciones: `diario` | `semanal` | `mensual` | `por-ciclo-de-negocio`
+> Ej: `mensual` _(Cada mes que opera la empresa sin proceso ARCO+ es un mes de exposición regulatoria activa.)_
+> _(El problema debe ser recurrente para el mismo afectado — no un evento puntual. Ref: Criterio 2 del Filter Checklist.)_
+
+**indicador_de_resolucion:** [COMPLETAR]
+> Ej: `100% de solicitudes ARCO+ respondidas dentro del plazo legal de 30 días, con trazabilidad completa en cada caso.`
+> _(El indicador objetivo y medible que confirma que el problema fue resuelto. Debe ser específico — "mejorar el proceso" no califica. Ref: Criterio 1-E3 del Filter Checklist.)_
+
+**evidencia_de_mercado:** [COMPLETAR]
+> Ej: `Toda empresa chilena que trata datos personales debe cumplir la Ley 21.719 (vigencia dic 2026). Universo estimado: +5.000 PyMEs chilenas en el segmento objetivo.`
+> _(Señal de que existen al menos 50 empresas o 200 personas con este problema dispuestas a pagar. Puede ser indirecta: competidores, regulación, entrevistas, búsquedas. Ref: Criterio 3-M1 del Filter Checklist.)_
+
 **urgencia:** [COMPLETAR]
 > Ej: `La Ley 21.719 entra en vigencia el 1 de diciembre de 2026. Las multas aplican desde el día 1. Construir un proceso desde cero toma meses.`
 > _(Por qué deben actuar ahora y no después.)_
@@ -52,7 +68,9 @@
 - [COMPLETAR]
 - [COMPLETAR]
 - [COMPLETAR]
+
 > Ej:
+>
 > - `"Somos una empresa pequeña, esto no aplica para nosotros."`
 > - `"¿Cuánto tiempo lleva implementarlo antes de diciembre?"`
 > - `"¿Necesitamos integrar todos nuestros sistemas desde el principio?"`
@@ -71,7 +89,13 @@
 
 ## 3. SOLUCIÓN
 
-<!-- Lo que ofrece el producto. Énfasis en el outcome (qué logra el cliente) más que en features (qué hace el sistema). -->
+<!-- Lo que ofrece el servicio. Énfasis en el resultado que recibe el cliente, no en las features del sistema. -->
+<!-- Paradigma JustGoToMarket: el cliente compra un resultado, no una herramienta. La tecnología es el medio. -->
+
+**modelo_de_servicio:** [COMPLETAR]
+> Opciones: `resultado-sin-plataforma` | `resultado-via-plataforma`
+> Ej: `resultado-via-plataforma` _(El cliente interactúa con una plataforma para gestionar solicitudes, pero lo que compra es la garantía de cumplimiento — no el acceso al software.)_
+> _(`resultado-sin-plataforma`: el cliente recibe el resultado sin interactuar con ningún sistema. Ej: reporte mensual enviado por email. `resultado-via-plataforma`: el cliente usa una interfaz, pero la promesa de valor es el resultado que esa interfaz facilita, no el acceso en sí.)_
 
 **que_hace:** [COMPLETAR]
 > Ej: `Gestiona el ciclo completo de cada solicitud ARCO+: canal único de recepción para titulares, tracking automático de plazos, gestión por el operador y recolección de datos desde las plataformas de la empresa mediante conectores.`
@@ -82,14 +106,16 @@
 
 **transformacion:** [COMPLETAR]
 > Ej: `De "no tenemos proceso para solicitudes ARCO+" a "100% de solicitudes respondidas dentro del plazo legal, con trazabilidad completa."`
-> _(Formato: "De [estado actual doloroso] a [estado futuro deseado]".)_
+> _(Formato: "De [estado actual doloroso] a [estado futuro deseado]". El estado futuro debe expresarse como un resultado para el cliente, no como una función del sistema.)_
 
 **diferenciadores:**
 <!-- Máximo 3. Específicos y verificables — evitar "solución integral" y similares. -->
 - [COMPLETAR]
 - [COMPLETAR]
 - [COMPLETAR]
+
 > Ej:
+>
 > - `Flujo completo de punta a punta — no solo un tracker de plazos, sino gestión + respuesta + recolección de datos.`
 > - `Sistema de conectores extensible (BUK, Google Drive, API abierta) — los datos se recolectan automáticamente desde los sistemas actuales.`
 > - `Disponible como SaaS o on-premise — cubre empresas con restricciones regulatorias de residencia de datos (banca, salud, gobierno).`
@@ -97,6 +123,7 @@
 **proof_points:**
 <!-- Números reales, logos de clientes, testimoniales. Si el producto es pre-lanzamiento, dejar vacío y el agente construirá credibilidad desde el contexto regulatorio. -->
 - [COMPLETAR o dejar vacío si pre-lanzamiento]
+
 > Ej (pre-lanzamiento): _(vacío — el landing usará la urgencia regulatoria y el equipo como señal de credibilidad)_
 
 ---
@@ -116,7 +143,9 @@
 **secciones_obligatorias:**
 <!-- Secciones que DEBEN aparecer en el landing. El agente decide el resto según best practices. -->
 - [COMPLETAR]
+
 > Ej:
+>
 > - `Hero (headline + subheadline + CTA)`
 > - `Problema (por qué la inacción es costosa — tabla de multas)`
 > - `Solución (qué hace ARCO Legal, 3 pilares)`
@@ -137,7 +166,8 @@
 
 ## 5. DEMO
 
-<!-- El "Aha! Moment" — el instante donde el visitante entiende visceralmente el valor del producto. El Blueprint lo convierte en diseño técnico y de UX. -->
+<!-- El "Aha! Moment" — el instante donde el visitante entiende visceralmente el resultado que recibirá si contrata el servicio. El Blueprint lo convierte en diseño técnico y de UX. -->
+<!-- El demo no tiene que mostrar un software completo — tiene que mostrar el resultado que el cliente obtiene. Enfocarse en el "qué recibe el cliente", no en "qué hace el sistema". -->
 
 **tipo_demo:** [COMPLETAR]
 > Opciones: `video-pregrabado` | `prototipo-interactivo` | `simulacion-funcional` | `demo-en-vivo-agendada`
@@ -153,7 +183,9 @@
 1. [COMPLETAR]
 2. [COMPLETAR]
 3. [COMPLETAR]
+
 > Ej:
+>
 > 1. `El titular envía una solicitud ARCO+ a través del formulario público de la empresa.`
 > 2. `La solicitud aparece en el tablero Kanban de ARCO Legal con estado "Recibida" y un countdown automático de 30 días.`
 > 3. `El operador avanza la solicitud a "Recolección de datos" — el sistema lanza el conector a BUK y Google Drive para recopilar los datos del titular.`
@@ -197,7 +229,9 @@
 **integraciones:**
 <!-- Servicios externos que el CTA o el formulario deben conectar. -->
 - [COMPLETAR]
+
 > Ej:
+>
 > - `calendly` _(El CTA "Agendar demo" abre el widget de Calendly.)_
 > - `resend` _(Confirmación de agendamiento por email.)_
 > _(Opciones comunes: formulario-propio | calendly | mailchimp | resend | hubspot | salesforce | ninguno)_
@@ -233,7 +267,9 @@
 **v1_must_have:**
 <!-- Qué DEBE estar funcionando para que el landing se considere entregado. DoD del Idea2Landing. -->
 - [COMPLETAR]
+
 > Ej:
+>
 > - `Landing responsivo (mobile + desktop) desplegado en URL de producción`
 > - `Hero section con headline, subheadline y CTA principal operativo`
 > - `Demo accesible desde el CTA — al menos prototipo interactivo o video`
@@ -245,7 +281,9 @@
 **v2_nice_to_have:**
 <!-- Qué puede esperar al siguiente ciclo o post-lanzamiento. -->
 - [COMPLETAR]
+
 > Ej:
+>
 > - `Blog o sección de recursos sobre Ley 21.719`
 > - `Versión en inglés del landing`
 > - `Hotjar o herramienta de heatmaps`
@@ -255,7 +293,9 @@
 **out_of_scope:**
 <!-- Qué explícitamente NO debe hacer GSD en este ciclo. Evita que el agente "mejore" cosas fuera del acuerdo. -->
 - [COMPLETAR]
+
 > Ej:
+>
 > - `Desarrollo de la plataforma ARCO Legal (eso es Landing2MVP)`
 > - `Integraciones con sistemas externos del cliente (BUK, Google Drive, etc.)`
 > - `Panel de administración o autenticación de usuarios`
@@ -264,7 +304,9 @@
 **constraints:**
 <!-- Restricciones técnicas, regulatorias o de negocio que el agente debe respetar. -->
 - [COMPLETAR]
+
 > Ej:
+>
 > - `El landing no debe recolectar datos personales más allá del email/nombre para el agendamiento (ironía regulatoria — ARCO Legal debe cumplir la Ley 21.719 desde el día 1)`
 > - `Tiempo de carga < 3 segundos en mobile (Core Web Vitals: LCP < 2.5s)`
 > - `No usar librerías con licencias no permisivas (MIT/Apache únicamente)`
@@ -276,21 +318,27 @@
 <!-- Cualquier información relevante que no cabe en las secciones anteriores. Documentos de referencia, decisiones estratégicas ya tomadas, personas clave, links útiles. -->
 
 **documentos_de_referencia:**
+
 - [COMPLETAR o "ninguno"]
+
 > Ej: `Narrativa estratégica completa en Proyecto - Arco Legal.pdf`
 
 **decisiones_ya_tomadas:**
 <!-- Decisiones estratégicas o técnicas que NO deben ser cuestionadas por el Blueprint. -->
 - [COMPLETAR o "ninguno"]
+
 > Ej:
+>
 > - `Manual-first: el landing debe validar el mercado antes de automatizar. No construir integraciones automáticas en v1.`
 > - `PyMEs primero: el copy y el pricing apuntan a empresas de 20–500 empleados.`
 > - `SaaS por defecto, on-premise como opción — mencionarlo en el landing.`
 
 **equipo:**
+
 - **SRM (responsable del intake):** [COMPLETAR]
 - **Lead Dev AI (responsable del Blueprint):** [COMPLETAR]
 - **Contacto técnico (DNS/dominio):** [COMPLETAR]
+
 > Ej: SRM: Manuel Reyes · Lead Dev AI: Marcelo Ampuero · Contacto DNS: Manuel Reyes (Cloudflare)
 
 ---
@@ -307,7 +355,11 @@
 - [ ] `mensaje_clave` completado
 - [ ] `perfil_ict` completado
 - [ ] `problema_en_sus_palabras` completado
+- [ ] `frecuencia_del_problema` completado _(recurrencia del problema — Criterio 2)_
+- [ ] `indicador_de_resolucion` completado _(métrica objetiva de resolución — Criterio 1-E3)_
+- [ ] `evidencia_de_mercado` completado _(señal de universo potencial — Criterio 3-M1)_
 - [ ] `urgencia` completado
+- [ ] `modelo_de_servicio` completado
 - [ ] `que_hace` completado
 - [ ] `transformacion` completado
 - [ ] `cta_principal_accion` completado
