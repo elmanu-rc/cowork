@@ -48,11 +48,13 @@ npx get-shit-done-cc@latest
 ---
 
 > [!IMPORTANT]
-> ### Welcome Back to GSD
+>
+> # Welcome Back to GSD
 >
 > If you're returning to GSD after the recent Anthropic Terms of Service changes — welcome back. We kept building while you were gone.
 >
 > **To re-import an existing project into GSD:**
+>
 > 1. Run `/gsd-map-codebase` to scan and index your current codebase state
 > 2. Run `/gsd-new-project` to initialize a fresh GSD planning structure using the codebase map as context
 > 3. Review [docs/USER-GUIDE.md](docs/USER-GUIDE.md) and the [CHANGELOG](CHANGELOG.md) for updates — a lot has changed since you were last here
@@ -104,10 +106,12 @@ npx get-shit-done-cc@latest
 ```
 
 The installer prompts you to choose:
+
 1. **Runtime** — Claude Code, OpenCode, Gemini, Kilo, Codex, Copilot, Cursor, Windsurf, Antigravity, Augment, Trae, Qwen Code, CodeBuddy, Cline, or all (interactive multi-select — pick multiple runtimes in a single install session)
 2. **Location** — Global (all projects) or local (current project only)
 
 Verify with:
+
 - Claude Code / Gemini / Copilot / Antigravity / Qwen Code: `/gsd-help`
 - OpenCode / Kilo / Augment / Trae / CodeBuddy: `/gsd-help`
 - Codex: `$gsd-help`
@@ -373,6 +377,7 @@ Plans are grouped into "waves" based on dependencies. Within each wave, plans ru
 ```
 
 **Why waves matter:**
+
 - Independent plans → Same wave → Run in parallel
 - Dependent plans → Later wave → Wait for dependencies
 - File conflicts → Sequential plans or same plan
@@ -643,12 +648,6 @@ You're never locked in. The system adapts.
 | `/gsd-resume-work` | Restore from last session |
 | `/gsd-session-report` | Generate session summary with work performed and outcomes |
 
-### Workstreams
-
-| Command | What it does |
-|---------|--------------|
-| `/gsd-workstreams` | Manage parallel workstreams (list, create, switch, status, progress, complete) |
-
 ### Code Quality
 
 | Command | What it does |
@@ -712,6 +711,7 @@ Control which Claude model each agent uses. Balance quality vs token spend.
 | `inherit` | Inherit | Inherit | Inherit |
 
 Switch profiles:
+
 ```
 /gsd-set-profile budget
 ```
@@ -737,6 +737,7 @@ These spawn additional agents during planning/execution. They improve quality bu
 | `workflow.use_worktrees` | `true` | Toggle worktree isolation for execution |
 
 Use `/gsd-settings` to toggle these, or override per-invocation:
+
 - `/gsd-plan-phase --skip-research`
 - `/gsd-plan-phase --skip-verify`
 
@@ -769,6 +770,7 @@ Control how GSD handles branches during execution.
 | `git.milestone_branch_template` | string | `gsd/{milestone}-{slug}` | Template for milestone branches |
 
 **Strategies:**
+
 - **`none`** — Commits to current branch (default GSD behavior)
 - **`phase`** — Creates a branch per phase, merges at phase completion
 - **`milestone`** — Creates one branch for entire milestone, merges at completion
@@ -825,16 +827,19 @@ This prevents Claude from reading these files entirely, regardless of what comma
 ## Troubleshooting
 
 **Commands not found after install?**
+
 - Restart your runtime to reload commands/skills
 - Verify files exist in `~/.claude/skills/gsd-*/SKILL.md` or `~/.codex/skills/gsd-*/SKILL.md` for managed global installs
 - For local installs, verify `.claude/skills/gsd-*/SKILL.md` or `./.codex/skills/gsd-*/SKILL.md`
 - Legacy Claude Code installs still use `~/.claude/commands/gsd/`
 
 **Commands not working as expected?**
+
 - Run `/gsd-help` to verify installation
 - Re-run `npx get-shit-done-cc` to reinstall
 
 **Updating to the latest version?**
+
 ```bash
 npx get-shit-done-cc@latest
 ```
@@ -842,9 +847,11 @@ npx get-shit-done-cc@latest
 **Using Docker or containerized environments?**
 
 If file reads fail with tilde paths (`~/.claude/...`), set `CLAUDE_CONFIG_DIR` before installing:
+
 ```bash
 CLAUDE_CONFIG_DIR=/home/youruser/.claude npx get-shit-done-cc --global
 ```
+
 This ensures absolute paths are used instead of `~` which may not expand correctly in containers.
 
 ### Uninstalling

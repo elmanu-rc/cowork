@@ -10,7 +10,7 @@
 	"scripts": {
 		"lint": "bun run lint:biome && bun run lint:markdown",
 		"lint:biome": "biome check . --write",
-		"lint:markdown": "bunx markdownlint-cli2 '**/*.md' --fix",
+		"lint:markdown": "bunx markdownlint-cli2 'projects/**/*.md' --fix",
 		"husky": "husky"
 	},
 	"devDependencies": {

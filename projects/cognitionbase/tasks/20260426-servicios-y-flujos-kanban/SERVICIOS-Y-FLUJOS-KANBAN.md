@@ -81,6 +81,7 @@ Se proponen **4 tableros Kanban** que cubren la totalidad de los flujos operativ
 | 5 | **❌ Descartado / En espera** | Solicitud que no cumple criterios o está en pausa | Documentar motivo de descarte o bloqueo | — |
 
 **Campos bloqueantes del REQUEST.md (Idea2Market):**
+
 - `url_destino`
 - `cta_principal_accion`
 - `aha_moment_hipotesis`
@@ -106,6 +107,7 @@ Se proponen **4 tableros Kanban** que cubren la totalidad de los flujos operativ
 | 8 | **📊 En Seguimiento (Gate)** | Landing en producción | Monitorear la métrica de gate definida en `REQUEST.md` (leads, conversión, demos completados) | Métrica de gate alcanzada → traspasar a tablero L2MVP |
 
 **Checklist de QA (etapa 6):**
+
 - [ ] Lighthouse: Performance, Accessibility y SEO aceptables
 - [ ] GA4: eventos `page_view`, `cta_click`, `demo_start` activos
 - [ ] Sin errores de consola en mobile y desktop

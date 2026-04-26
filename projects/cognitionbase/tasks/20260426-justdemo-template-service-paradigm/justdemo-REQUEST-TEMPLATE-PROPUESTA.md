@@ -3,8 +3,7 @@
 > **Flujo:** JustDemo · CognitionBase  
 > **Versión de plantilla:** 1.2  
 > **Prerequisito:** Esta plantilla solo debe completarse si la idea ya pasó el `justgotomarket-IDEAS-FILTER-CHECKLIST.md`. Si la idea no ha sido filtrada, comenzar por ahí.  
-> **Instrucciones:** Reemplaza cada `[COMPLETAR]` con el valor real. Los bloques `> Ej:` son ejemplos basados en el proyecto ARCO Legal — borrarlos al completar. Un campo obligatorio vacío detiene el Intake.
-
+> **Instrucciones:** Reemplaza cada `[COMPLETAR]` con el valor real. Los bloques `> Ej:` son ejemplos basados en un proyecto de fake — borrarlos al completar. Un campo obligatorio vacío detiene el Intake.
 > **Paradigma JustGoToMarket:** El cliente final **compra un resultado**, no una herramienta. La tecnología —sea automatización, agente IA, plataforma o procesamiento de datos— es el habilitador del servicio, no el servicio en sí. Este landing valida si el mercado está dispuesto a pagar por ese resultado, no si quiere acceder a un software.
 
 ---
@@ -314,6 +313,7 @@
 ## 9. CONTEXTO ADICIONAL
 
 **documentos_de_referencia:**
+
 - [COMPLETAR o "ninguno"]
 
 > Ej: `Narrativa estratégica completa en Proyecto - Arco Legal.pdf`
