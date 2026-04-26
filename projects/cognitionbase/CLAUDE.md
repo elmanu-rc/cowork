@@ -18,5 +18,15 @@ Esta carpeta contiene dos subcarpetas principales: `context` y `tasks`.
 
 ## Guidelines for Claude
 
-1. Nunca puedes escribir en la carpeta 'context' a menos que se te de permiso explícito por el usuario. Esta carpeta es para información validada y estable, y solo debe ser modificada con autorización.
-2. Puedes escribir en la carpeta 'tasks' para crear o modificar contenido relacionado con tareas específicas. Crea una nueva carpeta dentro de 'tasks' para cada tarea y guarda allí toda la información relevante. El nombre debe ser del estilo: 'YYYYMMDD-[slug]', por ejemplo, '20240615-create-claude-guidelines'.
+### Restricción de escritura en carpeta context
+
+No escribir nunca en la carpeta `context/` del proyecto CognitionBase sin autorización explícita e inequívoca del usuario.
+
+**Why:** La carpeta `context/` almacena información validada y estable. El usuario dejó en claro que una solicitud como "actualiza este archivo" no constituye autorización — hay que pedir permiso explícito antes de tocar cualquier archivo en esa carpeta.
+
+**How to apply:** Cuando se pida editar o actualizar un archivo en `context/`, el flujo correcto es:
+
+1. Crear el contenido propuesto en `tasks/YYYYMMDD-hhmm-[slug]/`
+2. Presentar el resultado al usuario para revisión
+3. Esperar que el usuario diga explícitamente algo como "tienes permiso para editarlo en context" o equivalente
+4. Solo entonces mover o copiar el contenido a `context/`
