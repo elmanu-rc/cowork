@@ -19,6 +19,7 @@ Determinar los umbrales financieros críticos de 23people bajo escenarios de red
 ¿Cuál es el **ingreso mensual mínimo** necesario para que 23people cubra sus costos fijos operacionales?
 
 Considerar especialmente:
+
 - Nómina Iarvis Tribe (costo fijo independiente del número de profesionales activos en Equifax)
 - Obligaciones laborales (cotizaciones, finiquitos potenciales, etc.)
 - Costos operacionales base de la empresa
@@ -28,6 +29,7 @@ Considerar especialmente:
 ¿En qué punto de absorción —medido en número de profesionales absorbidos— el margen bruto generado deja de cubrir los costos fijos identificados en la pregunta anterior?
 
 Ejemplo de formato esperado:
+
 | Profesionales absorbidos | Ingresos estimados restantes | ¿Cubre costos fijos? |
 |--------------------------|------------------------------|----------------------|
 | 10 | $X | Sí / No |
@@ -38,6 +40,7 @@ Ejemplo de formato esperado:
 ### 3. Runway disponible
 
 Asumiendo el **peor caso** —absorción total de ~50 profesionales antes de septiembre 2026—:
+
 - ¿Cuántos meses de operación puede sostener 23people con reservas o ingresos residuales antes de no poder cumplir con sus obligaciones?
 - ¿Qué supuestos se están usando para ese cálculo?
 

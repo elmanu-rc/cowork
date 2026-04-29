@@ -1,4 +1,5 @@
 # IE-2026-04 Restitutor Orbis — Sesión de Preguntas y Respuestas
+
 **Fecha:** 2026-04-29
 **Método:** Grill-me (entrevista estructurada para madurar la iniciativa)
 **Estado:** Sesión 1 completada — pendiente continuar desde Pregunta 10
@@ -39,15 +40,19 @@ Equifax además presiona tarifas al menos una vez al año desde la pandemia (red
 La iniciativa opera en tres frentes con jerarquía explícita:
 
 ### Frente 1 — Outsourcing Tech Talent Services (prioridad principal, corto plazo)
+
 Expandir el servicio de outsourcing de talento tech tanto en nuevas divisiones de Equifax como en clientes nuevos. Se intentó antes con escasos resultados. Esta vez se busca:
+
 - Hacer inteligencia competitiva real (nunca se hizo en profundidad porque Equifax lo hacía innecesario).
 - Usar otra propuesta de valor y estrategias de prospección distintas.
 - Explorar alianzas con pymes de reclutamiento generalista que tengan llegada comercial a grandes empresas pero que fallen en evaluación técnica — 23people aporta el diferenciador técnico vía CognitionBase.
 
 ### Frente 2 — Proyectos llave en mano de integración (segunda prioridad, corto-mediano plazo)
+
 23people ya ha ejecutado integraciones complejas (FALP + Equifax, App Pilotos con SAP, ACHS Telemedicina). La idea es usar esos casos como credencial para ofrecer a nuevos clientes un servicio intermediario entre plataformas empresariales —análogo a una pasarela de pago— que simplifique integraciones complejas (patrón Facade en ingeniería de software). CognitionBase implementa lo técnico, 23people vende. El éxito de estos proyectos llave en mano debería derivar en outsourcing.
 
 ### Frente 3 — CognitionBase como motor de innovación (mediano plazo)
+
 Arco Legal es el primer caso de estudio del servicio JustDemo de CognitionBase. Se busca lanzar un landing page funcional con demo interactiva, con una propuesta de valor clara para el mercado legal. Eventualmente, esta metodología JustDemo quedará formalizada y será replicable para futuras ideas.
 
 **Nota sobre CognitionBase como brazo técnico:** Además de ser motor de innovación, CognitionBase apoya a 23people en evaluaciones técnicas de talento y eventualmente en las evaluaciones de oportunidades de integración.
@@ -73,12 +78,14 @@ Arco Legal es el primer caso de estudio del servicio JustDemo de CognitionBase. 
 ### P3 — ¿Hay una jerarquía explícita entre las cuatro líneas estratégicas?
 
 **Cuatro líneas originales planteadas:**
+
 1. Más outsourcing (Tech Talent Services) en Equifax y nuevos clientes
 2. 23people como frente de ventas con CognitionBase de apoyo
 3. Nuevo servicio de integración de plataformas tipo Facade
 4. CognitionBase como motor de innovación (Arco+ como caso de estudio)
 
 **Respuesta de Manuel:** Sí coincide con jerarquizar explícitamente:
+
 - **Línea 1 (outsourcing):** apuesta principal de corto plazo.
 - **Línea 3 (integraciones):** segunda en prioridad. Usar casos ya ejecutados como credencial para proyectos llave en mano en clientes nuevos que deriven en outsourcing.
 - **Línea 4 (Arco+ / CognitionBase):** apuesta de mediano plazo, no compite por el foco operativo del equipo comercial.
@@ -119,6 +126,7 @@ Arco Legal es el primer caso de estudio del servicio JustDemo de CognitionBase. 
 ### P8 — ¿Cómo se ve el éxito en 90 días (julio 2026)?
 
 **Acuerdo alcanzado — imagen de éxito a 90 días:**
+
 1. Punto crítico financiero determinado y en manos del High Council (Juan Carlos + Giovanni).
 2. Inteligencia competitiva completada con conclusiones accionables para el equipo comercial.
 3. Al menos una oportunidad real en conversación avanzada: nueva división de Equifax, contacto de reclutamiento de Manuel, o cliente nuevo prospectado.

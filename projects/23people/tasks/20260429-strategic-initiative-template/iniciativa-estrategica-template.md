@@ -22,9 +22,11 @@ _¿Por qué existe esta iniciativa? Describir el problema, brecha u oportunidad 
 ## 3. Alcance
 
 **Incluye:**
+
 - [Qué está dentro del alcance de esta iniciativa]
 
 **No incluye:**
+
 - [Qué queda explícitamente fuera del alcance]
 
 ---
