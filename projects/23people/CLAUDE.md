@@ -10,13 +10,13 @@ Mas información sobre 23people: [23people Overview](https://manual.23people.io/
 
 ## Content Organization
 
-Esta carpeta contiene dos subcarpetas principales: `context` y `tasks`.
+Esta carpeta contiene dos subcarpetas principales: `consolidated` y `tasks`.
 
-- `context` — Almacena contenido validado y estable, disponible como referencia en múltiples sesiones. Úsalo como fuente de verdad para el proyecto. NO TIENES PERMITIDO ESCRIBIR EN ESTA CARPETA SIN UNA CONFIRMACIÓN EXPLICITA DEL USUARIO.
+- `consolidated` — Almacena contenido validado y estable, disponible como referencia en múltiples sesiones. Úsalo como fuente de verdad para el proyecto. NO TIENES PERMITIDO ESCRIBIR EN ESTA CARPETA SIN UNA CONFIRMACIÓN EXPLICITA DEL USUARIO.
 
 - `tasks` — Contiene contenido temporal asociado a tareas específicas. Ignora su contenido preexistente, ya que puede estar incompleto o sin validar.
 
 ## Guidelines for Claude
 
 1. Nunca puedes escribir en la carpeta 'context' a menos que se te de permiso explícito por el usuario. Esta carpeta es para información validada y estable, y solo debe ser modificada con autorización.
-2. Puedes escribir en la carpeta 'tasks' para crear o modificar contenido relacionado con tareas específicas. Crea una nueva carpeta dentro de 'tasks' para cada tarea y guarda allí toda la información relevante. El nombre debe ser del estilo: 'YYYYMMDD-[slug]', por ejemplo, '20240615-create-claude-guidelines'.
+2. Puedes escribir en la carpeta 'tasks' para crear o modificar contenido relacionado con tareas específicas. Crea una nueva carpeta dentro de 'tasks' para cada tarea y guarda allí toda la información relevante. El nombre debe ser del estilo: 'YYYYMMDD-hhmm-[slug]', por ejemplo, '20240615-1545-create-claude-guidelines'.
