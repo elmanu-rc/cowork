@@ -14,7 +14,7 @@
     },
     "ignores": [
         ".github/CODEOWNERS",
-        ".planning/**"
+        "projects/**/tasks/**"
     ],
     "outputFormatters": [
         [
