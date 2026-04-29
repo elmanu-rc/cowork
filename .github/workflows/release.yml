@@ -23,8 +23,7 @@ jobs:
       - uses: actions/checkout@v6
       - uses: DavidAnson/markdownlint-cli2-action@v22
         with:
-          globs: |
-            projects/**/*.md
+          config: .markdownlint-cli2.jsonc
 
   # Release the new versions
   release-version:
