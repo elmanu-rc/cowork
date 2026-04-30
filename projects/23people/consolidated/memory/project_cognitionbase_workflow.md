@@ -7,6 +7,7 @@ originSessionId: 47e8c2ad-da59-4449-8c0a-2e751a8af058
 Las solicitudes de 23people a CognitionBase se formalizan creando una **tarjeta kanban en Kanbanize** (plataforma similar a ClickUp). Este es el canal oficial de comunicación entre ambas entidades.
 
 **Ejemplos de solicitudes que deben pasar por este flujo:**
+
 - Cambios al sitio web de 23people (ej. Trust Center para ISO 27001)
 - Evaluaciones técnicas de talento (Technical Evaluations Service)
 - Cualquier desarrollo o entregable que CognitionBase ejecute para 23people
