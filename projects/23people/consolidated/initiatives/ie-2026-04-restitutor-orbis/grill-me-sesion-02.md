@@ -34,6 +34,7 @@
 **Respuesta de Manuel:** La iniciativa se revisa en el **High Council Meeting (Weekly)**, todos los miércoles a las 11:00 AM, duración 45 minutos.
 
 **Miembros del High Council:**
+
 - **Manuel Reyes** — Director General y Co-Founder
 - **Marcelo Ampuero** — Director de Ingeniería, Lead Developer y Co-Founder
 - **Juan Carlos Soto** — Director de Operaciones Globales
@@ -70,6 +71,7 @@
 **Respuesta de Manuel:** Juan Carlos puede tomar el rol de referente para la línea de integraciones, con ayuda activa del resto del High Council.
 
 **Acuerdo alcanzado:**
+
 - **Línea de outsourcing:** Anita Villegas (referente natural por su rol en Sales & Customer Success)
 - **Línea de integraciones:** Juan Carlos Soto (con soporte activo del High Council)
 
@@ -94,11 +96,13 @@
 **Respuesta de Manuel:** Dos casos documentados y de uso libre:
 
 **Caso 1 — FALP + Equifax (scoring crediticio)**
+
 - **Desafío:** Automatizar evaluaciones crediticias que se realizaban manualmente, integrando con API de Equifax Chile.
 - **Solución:** Integración con API de Equifax Chile para evaluación crediticia automatizada en plataforma médica.
 - **Resultados:** Evaluaciones en minutos vs. proceso manual de 48+ horas; cumplimiento de regulaciones de datos financieros; reducción de errores de captura manual.
 
 **Caso 2 — ACHS Telemedicina (pandemia)**
+
 - **Desafío:** Mantener continuidad de atención médica durante COVID-19, cumpliendo regulaciones de la Superintendencia de Seguridad Social.
 - **Solución:** Plataforma de agendamiento y telemedicina integrada con SAP, IMED y medios de pago, usando metodología ágil.
 - **Resultados:** Miles de pacientes continuaron recibiendo atención. ACHS volvió a contratar a 23people para expandir la plataforma.
