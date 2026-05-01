@@ -1,4 +1,4 @@
-# AGENTS.md — cowork
+# CLAUDE.md
 
 This repo is a documentation hub for 3 company projects under `projects/`. Not a code monorepo — almost all work is Markdown.
 

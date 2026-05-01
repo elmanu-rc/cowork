@@ -2,7 +2,7 @@
 	"private": true,
 	"name": "cowork",
 	"type": "module",
-	"repository": "git@github.com:elmanu-rc/cowork.git",
+	"repository": "git@github.com:reykjavik-labs/cowork.git",
 	"version": "0.0.0",
 	"engines": {
 		"node": ">=18"
@@ -11,7 +11,8 @@
 		"lint": "bun run lint:biome && bun run lint:markdown",
 		"lint:biome": "biome check . --write",
 		"lint:markdown": "bunx markdownlint-cli2 'projects/**/*.md' --fix",
-		"husky": "husky"
+		"husky": "husky",
+		"postinstall": "bun run husky"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.3.10",
