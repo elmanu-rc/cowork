@@ -23,4 +23,4 @@ Esta carpeta contiene dos subcarpetas principales: `consolidated` y `tasks`.
 
 ## Uso de la memoria
 
-Considerar el archivo de memoria `projects/23people/consolidated/memory/MEMORY.md` al iniciar una conversion.
+Considerar el archivo de memoria `projects/23people/consolidated/.memory/MEMORY.md` al iniciar una conversación.
